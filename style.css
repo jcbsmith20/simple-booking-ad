@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Rubik", sans-serif;
+    background-color: hsl(270, 20%, 96%);
+}
+
+.phone-div{
+    display: flex;
+    border: 2px solid black;
+    height: 800px;
+}
+
+.background-div{
+    height: 600px;
+    width: 450px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 220px;
+    background: linear-gradient(to right top,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    position: relative;
+}
+
+.phone-container{
+    border: 10px solid white;
+    height: 600px;
+    width: 350px;
+    position: absolute;
+    margin-left: 20rem;
+    margin-top: 60px;
+    border-radius: 20px;
+    font-size: 16px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.phone-header-top{
+    width: 200px;
+    height: 30px;
+    margin-left: 4rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    background-color: white;
+}
+
+.phone-header{
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    background: linear-gradient(0.15turn, hsl(264, 100%, 61%) 10%, hsl(293, 100%, 63%));
+}
+
+.phone-header h1, p{
+    font-size: 12px;
+    margin: 5px;
+}
+
+.contact-photo{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1.5px solid white;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.fa-arrow-left{
+    margin-left: 10px;
+    margin-top: 30px;
+    color: white;
+}
+
+.name-status{
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.name-status p{
+    color: hsl(276, 100%, 81%);
+}
+
+.name-status h1{
+    color: white;
+    font-weight: 500;
+}
+
+.fa-ellipsis-vertical{
+   margin-left: 65px;
+   margin-top: 35px;
+   color: white;
+}
+
+.messages-div{
+    border: 2px solid white;
+    height: 480px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: hsl(270, 20%, 96%);
+}
+
+.samuel-text{
+    height: 120px;
+}
+
+.samuel-text-1{
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(276, 100%, 89%);
+    width: 150px;
+    height: 50px;
+    text-align: left;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.samuel-text-2{
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(276, 100%, 89%);
+    width: 175px;
+    height: 50px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-weight: 400;
+}
+
+.img-div{
+    width: 173px;
+    margin-left: 155px;
+}
+
+.dog-img-1, .dog-img-2, .dog-img-3{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.dog-img-2, .dog-img-3{
+    margin-left: 2px;
+}
+
+.response-text-div{
+    height: 100px;
+}
+
+.response-text-1{
+    width: 180px;
+    margin-left: 140px;
+    height: 50px;
+    color: hsl(271, 15%, 43%);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 1px 2px 5px rgb(93, 91, 91);
+    padding-left: 3px;
+    padding-top: 5px;
+    padding-right: 1px;
+    margin-bottom: 8px;
+}
+
+.response-text-2{
+    width: 110px;
+    margin-left: 210px;
+    height: 30px;
+    color: hsl(271, 15%, 43%);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 1px 2px 5px rgb(93, 91, 91);
+    padding-left: 3px;
+    padding-top: 5px;
+}
+
+.response-div-2{
+    height: 190px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.response-div-text-2{
+    font-weight: 400;
+    width: 180px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: hsl(276, 100%, 89%);
+    color: hsl(276, 55%, 52%);
+    height: 60px;
+    padding: 5px;
+}
+
+.response-div-2 input[type="radio"]{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 5px;
+    border:3px solid hsl(289, 100%, 72%);
+    border-radius: 50%;
+}
+
+.radio-1{
+    color: hsl(276, 100%, 81%);
+    height: 30px;
+    width: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: linear-gradient(to right top,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+}
+
+.cost-1{
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.cost-2{
+    margin-left: 40px;
+    padding-right: 0px;
+    color: white;
+    font-weight: 600;
+}
+
+.radio-2{
+    color: hsl(276, 100%, 81%);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5px;
+    width: 175px;
+    margin-bottom: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: linear-gradient(to right top,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+}
+
+.message{
+    height: 40px;
+    width: 300px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    border: 3px solid gray;
+    margin-top: 10px;
+}
+
+.message input[type="text"]{
+    width: 240px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+input::placeholder{
+    color: hsl(206, 6%, 79%);
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.fa-arrow-right{
+    margin-left: 5px;
+    border: 15px solid hsl(271, 36%, 24%);
+    border-radius: 40%;
+    color: white;
+}
+
+.simple-booking-div{
+    height: 150px;
+    width: 450px;
+    margin-top: 300px;
+   position: absolute;
+   margin-left: 47rem;
+}
+
+.simple-booking-div h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: hsl(271, 36%, 24%);
+}
+
+.simple-booking-div p{
+    font-size: 16px;
+    color: hsl(270, 7%, 64%);
+    line-height: 25px;
+    text-align: left;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
